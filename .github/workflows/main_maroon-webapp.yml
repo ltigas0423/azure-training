@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'maroon-webapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_86D1A8705DCB469DB242DC21D5D032D6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0E93F6C246D54881BD5910BE820F2C9C }}
           package: '*.jar'
